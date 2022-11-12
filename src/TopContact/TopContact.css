@@ -1,0 +1,55 @@
+        .box {
+            background-color: rgb(78, 85, 87);
+            height: 50px;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            padding-top: 12px;
+        }
+        
+        ul {
+            list-style: none;
+            display: flex;
+            color: whitesmoke;
+        }
+        
+        .leftSide {
+            padding-top: 18px;
+            margin-left: 30px;
+            margin-bottom: 10px;
+        }
+        
+        .icon {
+            margin-bottom: -3px;
+            margin-right: 5px;
+            color: white;
+        }
+        
+        .infoMail {
+            margin-right: 25px;
+        }
+        
+        .rightSide {
+            position: absolute;
+            right: 100px;
+        }
+        
+        .rightSide li {
+            margin-right: 10px;
+            margin-left: 10px;
+            margin-bottom: 10px;
+        }
+        
+        @media screen and (max-width:740px) {
+            .box {
+                display: none;
+                visibility: hidden;
+            }
+        }
+        
+        @media screen and (max-width:850px) {
+            .rightSide {
+                position: absolute;
+                right: 20px;
+            }
+        }

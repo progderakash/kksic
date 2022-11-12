@@ -1,0 +1,67 @@
+           h2 {
+               margin-top: 50px;
+               position: relative;
+               text-align: center;
+               padding-bottom: 5px;
+               color: #000;
+           }
+           
+           h2::after {
+               content: '';
+               position: absolute;
+               width: 75px;
+               height: 3px;
+               background: steelblue;
+               bottom: 0;
+               left: 0;
+               right: 0;
+               margin: auto;
+           }
+           
+           .container {
+               display: flex;
+               align-items: center;
+               justify-content: center;
+           }
+           
+           .left {
+               margin-left: 20px;
+               margin-top: 50px;
+               position: relative;
+               display: flex;
+               align-items: center;
+               justify-content: center;
+               width: 40%;
+           }
+           
+           .right {
+               margin: 50px;
+               width: 60%;
+           }
+           
+           @media screen and(max-width:1000px) {
+               .left {
+                   width: 30%;
+                   margin-left: 0px;
+               }
+               .right {
+                   width: 70%;
+                   padding-left: 20px;
+                   padding-right: 20px;
+               }
+           }
+           
+           @media screen and (max-width: 850px) {
+               .container {
+                   flex-direction: column;
+               }
+               .left {
+                   width: 100%;
+                   margin-left: 0px;
+               }
+               .right {
+                   width: 100%;
+                   padding-left: 30px;
+                   padding-right: 30px;
+               }
+           }
