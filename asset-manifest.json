@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/kksic/static/css/main.e6d8f610.css",
+    "main.js": "/kksic/static/js/main.c1939c12.js",
+    "static/media/school-image.jpeg": "/kksic/static/media/school-image.e265cec1fdb59a828b46.jpeg",
+    "static/media/kkslogo.png": "/kksic/static/media/kkslogo.cc2a4da4cc1c3c5ea481.png",
+    "index.html": "/kksic/index.html",
+    "main.e6d8f610.css.map": "/kksic/static/css/main.e6d8f610.css.map",
+    "main.c1939c12.js.map": "/kksic/static/js/main.c1939c12.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6d8f610.css",
+    "static/js/main.c1939c12.js"
+  ]
+}
