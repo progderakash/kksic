@@ -12,6 +12,7 @@ import Events from './Gallery/events'
 import Imggallery from './Gallery/imggallery'
 import Infra from './Gallery/infra'
 import Testinomials from './Gallery/testinomials'
+import Footer from './footer/footer'
 
 
 function App() {
@@ -30,6 +31,8 @@ function App() {
       <Imggallery/>
       <Testinomials/>
       <Contact/>
+      <Footer/>
+
       </>
 
   );

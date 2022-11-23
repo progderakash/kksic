@@ -1,32 +1,42 @@
- h3::after {
-     content: '';
-     position: relative;
-     width: 50px;
-     height: 3px;
-     background: steelblue;
-     bottom: 0;
-     left: 0;
-     right: 0;
-     margin: auto;
- }
- 
- .container {
-     display: flex;
-     align-items: center;
-     justify-content: center;
- }
- 
- .left {
-     margin-left: 20px;
-     margin-top: 50px;
-     position: relative;
-     display: flex;
-     align-items: center;
-     justify-content: center;
-     width: 50%;
- }
- 
- .right {
-     margin: 50px;
-     width: 50%;
- }
+    .vismis-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 20px;
+        place-items: center;
+    }
+    
+    .vision {
+        border: 2px solid black;
+        border-radius: 10px;
+        height: auto;
+        padding: 10px;
+        margin: 20px;
+        background-color: white;
+        font-weight: bold;
+        font-family: sans-serif;
+    }
+    
+    .mission {
+        border: 2px solid black;
+        border-radius: 10px;
+        height: auto;
+        padding: 10px;
+        margin: 20px;
+        background-color: white;
+        font-weight: bold;
+        font-family: sans-serif;
+    }
+    
+    @media screen and (max-width:850px) {
+        .vismis-container {
+            display: grid;
+            grid-template-columns: auto;
+            grid-gap: 20px;
+            place-items: center;
+            place-content: center;
+        }
+    }
+    
+    .cardimg {
+        height: 100px;
+    }

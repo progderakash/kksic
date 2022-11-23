@@ -1,8 +1,14 @@
 import React from 'react'
+import './achivements.css'
 
 const Achievements = () => {
   return (
-    <div id='achivements' style={{height:'500px' }}>Achievements</div>
+    <div id='achivements'>
+      <h2>Achivements</h2>
+
+
+
+    </div>
   )
 }
 

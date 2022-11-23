@@ -2,7 +2,11 @@ import React from 'react'
 
 const Events = () => {
   return (
-    <div id='events' style={{height:'500px' }}>events</div>
+    <div id='events'>
+      <h2>Events</h2>
+
+
+    </div>
   )
 }
 

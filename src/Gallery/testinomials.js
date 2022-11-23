@@ -2,7 +2,12 @@ import React from 'react'
 
 const Testinomials = () => {
   return (
-    <div id='testinomials' style={{height:'500px' }}>testinomials</div>
+    <div id='testinomials'>
+
+<h2>Testionomials</h2>
+
+
+    </div>
   )
 }
 

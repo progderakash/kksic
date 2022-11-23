@@ -4,19 +4,22 @@ import TypingEffect from './TypingEffect/TypingEffect'
 import { useGlobalContext } from "./context";
 import school from './images/school-image.jpeg'
 
+
 const Background = () => {
   const { closeSubmenu } = useGlobalContext();
 
   return (
     <section className="hero" onMouseOver={closeSubmenu}>
-      <img className="backgroundimg" src={school} style={{
+     <img className="backgroundimg" src={school} style={{
         opacity:"0.4",
       zIndex:"-7",
-      height: '100vh',
+     height:"auto",
       width:"100%",
     backgroundPosition: 'center',
     backgroundRepeat: 'no-repeat',
-    backgroundSize: 'cover' }}/>
+      backgroundSize: 'cover' }}/>
+
+
       <div className="hero-center" >
         <article className="hero-info" >
           <h1><TypingEffect/></h1>

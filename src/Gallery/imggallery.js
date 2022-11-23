@@ -2,7 +2,7 @@ import React from 'react'
 
 const Imggallery = () => {
   return (
-    <div id='gallery' style={{height:'500px' }}>imggallery</div>
+    <div id='gallery'><h2>Gallery</h2></div>
   )
 }
 
