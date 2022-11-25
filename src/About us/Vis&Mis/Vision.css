@@ -12,8 +12,10 @@
         padding: 10px;
         margin: 20px;
         background-color: white;
-        font-weight: bold;
         font-family: sans-serif;
+        box-shadow: 10px 10px 5px 5px rgba(0, 0, 0, 0.3);
+        position: relative;
+        top: 0;
     }
     
     .mission {
@@ -23,8 +25,22 @@
         padding: 10px;
         margin: 20px;
         background-color: white;
-        font-weight: bold;
         font-family: sans-serif;
+        box-shadow: 10px 10px 5px 5px rgba(0, 0, 0, 0.3);
+        position: relative;
+        top: 0;
+    }
+    
+    .mission:hover {
+        box-shadow: -10px -10px 5px 5px rgba(0, 0, 0, 0.3);
+        top: 10px;
+        transition: 0.2s ease-in-out;
+    }
+    
+    .vision:hover {
+        box-shadow: -10px -10px 5px 5px rgba(0, 0, 0, 0.3);
+        top: 10px;
+        transition: 0.2s ease-in-out;
     }
     
     @media screen and (max-width:850px) {

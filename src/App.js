@@ -13,6 +13,9 @@ import Imggallery from './Gallery/imggallery'
 import Infra from './Gallery/infra'
 import Testinomials from './Gallery/testinomials'
 import Footer from './footer/footer'
+import Login from "./Login/Login";
+
+
 
 
 function App() {
@@ -20,7 +23,8 @@ function App() {
 <>
     <TopContact style={{color:"#fff"}}/>
       <Navbar/>
-      <Sidebar />
+      {/* <Login/>*/}
+      <Sidebar /> 
       <Background />
       <Submenu />
       <About/>

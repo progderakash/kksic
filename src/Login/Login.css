@@ -1,0 +1,8 @@
+.login-container {
+    width: 400px;
+    height: auto;
+    background-color: beige;
+    display: grid;
+    grid-template-rows: auto;
+    place-items: center;
+}

@@ -19,8 +19,9 @@
             margin-left: 10px;
             margin-right: 10px;
             border: 1px solid white;
-            border-radius: 15px;
+            border-radius: 20px;
             padding: 6px 8px 4px 8px;
+            box-shadow: 0px 5px 5px 0px rgb(255, 255, 255, 0.4);
         }
         
         hr {
@@ -46,6 +47,7 @@
             color: white;
             border: 2px solid white;
             padding: 5px 20px;
+            box-shadow: 0px 2px 3px 2px rgb(255, 255, 255, 0.4);
         }
         
         @media screen and (max-width: 650px) {
@@ -66,4 +68,26 @@
             display: flex;
             justify-content: center;
             text-align: center;
+        }
+        
+        .footer-icon:hover {
+            color: black;
+            background-color: white;
+            border-color: black;
+            position: relative;
+            top: -10px;
+            box-shadow: 0px 5px 5px 0px rgb(255, 255, 255, 0.4);
+            transition: 1s ease-in-out;
+        }
+        
+        .subscribe-btn:hover {
+            color: black;
+            background-color: white;
+            border-color: white;
+            position: relative;
+            top: 10px;
+            font-weight: bolder;
+            border-radius: 10px;
+            box-shadow: 0px 5px 5px 0px rgb(255, 255, 255, 0.4);
+            margin-bottom: 10px;
         }

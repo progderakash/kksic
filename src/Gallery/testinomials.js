@@ -4,7 +4,7 @@ const Testinomials = () => {
   return (
     <div id='testinomials'>
 
-<h2>Testionomials</h2>
+<h2>Testimonials</h2>
 
 
     </div>

@@ -1,0 +1,47 @@
+.achievements-counter {
+    margin-top: 50px;
+    width: 100%;
+    height: auto;
+    background-color: grey;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+    place-items: center;
+    padding: 15px;
+    color: white;
+}
+
+.achcount {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.achicons {
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width:850px) {
+    .achievements-counter {
+        margin-top: 50px;
+        height: auto;
+        background-color: grey;
+        display: grid;
+        grid-template-columns: auto;
+        grid-gap: 20px;
+        place-items: center;
+        padding: 15px;
+        color: white;
+    }
+    .achicons::after {
+        content: '';
+        width: 80px;
+        height: 5px;
+        position: absolute;
+        color: white;
+        margin: auto;
+        left: 0;
+        top: 0;
+    }
+}

@@ -1,14 +1,15 @@
 import React from 'react'
 import {ImFacebook} from 'react-icons/im'
+import {AiFillInstagram,AiFillYoutube} from 'react-icons/ai'
 import './footer.css'
 
 const Footer = () => {
   return (
     <div className="footer-container">
       <div className="icons">
-        <div className="footer-icon"> <ImFacebook/></div>
-        <div className="footer-icon"> <ImFacebook/></div>
-        <div className="footer-icon"> <ImFacebook/></div>
+        <div className="footer-icon"> <ImFacebook size={20}/></div>
+        <div className="footer-icon"> <AiFillInstagram size={20}/></div>
+        <div className="footer-icon"> <AiFillYoutube size={20}/></div>
       </div>
     
       <hr />
@@ -22,8 +23,24 @@ const Footer = () => {
     </div>
      <hr style={{marginTop:"20px"}} />
      <br />
+     {/* <div className="footer-bottom">
+      
+        <div className="footer-links footer-section">
+          <h4>Useful links</h4>
+          <li>Home</li>
+          <li>About</li>
+          <li>Achievements</li>
+          <li>Gallery</li>
+          <li>Contact</li>
 
-<div className="copyright"><h6>KKSIC Copyright © 2022 KKS Inter College - All rights reserved <br/> || Designed By: Progder ||</h6></div>
+        </div>
+          <div className="footer-contact footer-section">
+            <h4>Contact us</h4>
+          </div>
+        
+     </div> */}
+
+<div className="copyright"><h6>KKSIC Copyright © 2022 KKS Inter College - All rights reserved <br/> || Designed & Maintained By: Progder ||</h6></div>
 
 
     </div>
