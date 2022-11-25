@@ -1,0 +1,74 @@
+    .contact-form {
+        width: auto;
+        height: auto;
+        display: grid;
+        grid-template-columns: auto;
+        place-items: center;
+    }
+    
+    .form-control {
+        border-radius: 5px;
+        padding: 5px;
+        border: 1px solid grey;
+        margin-top: 15px;
+        box-shadow: 3px 8px 5px 0px rgba(1, 1, 1, 0.3);
+        width: 650px;
+        height: 40px;
+        font-size: 18px;
+    }
+    
+    .contact-msg {
+        height: 110px;
+    }
+    
+    .contact-btn {
+        margin: 20px;
+        width: 150px;
+        box-shadow: 5px 5px 0px 0px rgba(1, 1, 1, 0.8);
+    }
+    
+    .contact-detailsss {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px;
+        color: black;
+        margin-top: 20px;
+    }
+    
+    .contactus-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-content: center;
+        margin-top: 50px;
+    }
+    
+    .contactus-icons {
+        position: relative;
+        top: 8px;
+        margin-right: 5px;
+        margin-left: 35px;
+    }
+    
+    @media screen and (max-width:850px) {
+        .form-control {
+            width: 300px;
+            font-size: 15px;
+        }
+        .contactus-container {
+            display: grid;
+            grid-template-columns: auto;
+            grid-gap: 10px;
+            place-items: center;
+        }
+        .contact-detailsss {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            margin-top: 10px;
+        }
+        .contactus-icons {
+            width: 20px;
+        }
+    }
