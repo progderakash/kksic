@@ -17,7 +17,7 @@ const Footer = () => {
     <div className="newsletter">
       
         <div><label style={{color:"white", fontSize:"20px"}}>Sign up for our newsletter :</label></div>
-        <div><input  type="email" name="email" id="email" placeholder="Email address" style={{width:"250px", padding:"5px"}} /></div>
+        <div><input  type="email" name="email" id="email" placeholder="Email address" style={{width:"250px", padding:"5px", boxShadow: '5px 5px 5px 0px rgb(255, 255, 255, 0.4)'}} /></div>
         <div><button className='subscribe-btn'>Subscribe</button></div>
       
     </div>

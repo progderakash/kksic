@@ -7,7 +7,6 @@ import {TfiGallery} from 'react-icons/tfi'
 import {VscFeedback} from 'react-icons/vsc'
 import {GoMail} from 'react-icons/go'
 
-import About from './About us/About/About'
 
 
 const sublinks = [
@@ -32,7 +31,7 @@ const sublinks = [
     page: "contact us",
     links: [
       { label: "contact form", icon: <GoMail />, url: "contact_form" },
-      { label: "contact details", icon: <IoMdCall/>, url: "contact_details" },
+      { label: "contact details", icon: <IoMdCall/>, url: "contact-detailsss" },
     ],
   },
 ];
