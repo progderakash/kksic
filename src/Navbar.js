@@ -21,7 +21,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="nav" onMouseOver={handleSubmenu} style={{background:"#fff"}}>
+    <nav id="home"className="nav" onMouseOver={handleSubmenu} style={{background:"#fff"}}>
       <div className="nav-center">
         <div className="nav-header">
           <img src={require('./images/kkslogo.png')} style={{width:"50px", height:"50px"}}/>

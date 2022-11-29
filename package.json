@@ -1,6 +1,6 @@
 {
     "name": "kks-portal",
-    "homepage": "https://progderakash.github.io/kksic",
+    "homepage": "https://progderakash.github.io/kks",
     "version": "0.1.0",
     "private": true,
     "dependencies": {
@@ -23,6 +23,7 @@
         "react-router-hash-link": "^2.4.3",
         "react-scripts": "5.0.1",
         "react-scroll": "^1.8.8",
+        "react-slick": "^0.29.0",
         "react-slideshow-image": "^4.0.5",
         "react-spinners": "^0.13.6",
         "typewriter-effect": "^2.19.0",

@@ -5,6 +5,7 @@ import { useGlobalContext } from "./context";
 import school from './images/school-image.jpeg'
 
 
+
 const Background = () => {
   const { closeSubmenu } = useGlobalContext();
 
@@ -34,6 +35,7 @@ const Background = () => {
           <button className="btn login-btn">Sign In</button>
         </article>
       </div>
+ 
     </section>
   );
 };
